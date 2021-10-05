@@ -8,9 +8,6 @@ import { UsersService } from '../users/users.service';
 import { RegisterDto } from './dto/register.dto';
 import { TokenPayload } from './token-payload.interface';
 
-/**
- * https://mannharleen.github.io/2020-03-19-handling-jwt-securely-part-1/
- */
 @Injectable()
 export class AuthService {
 	constructor(
