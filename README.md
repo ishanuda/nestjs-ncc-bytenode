@@ -14,3 +14,15 @@ Server started running on http://localhost:3000
 While running the server, following api can access for the CURD operations:
 
 http://localhost:3000/api/posts
+
+# Compile
+$ npm run build - (build the nestjs application)
+$ npm run ncc - (compile the nestjs application to a single js)
+$ npm run bytenode - (compile the js file to bytecode)
+
+# Runing application
+$ npm run start:dev - (run the nestjs application for development)
+$ node ncc/index.js - (run the ingle compile js in nodejs)
+$ npm run byterun - (run the compiled bytecode)
+
+
